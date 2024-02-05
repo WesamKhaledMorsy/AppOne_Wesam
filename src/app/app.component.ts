@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'FirstAssignment';
+ 
+  ngOnInit(): void {
+
+  }
+
+  // scrollFunction() {
+  //   let postion = document.body.scrollHeight;
+  //   // .scroll({
+  //   //   top: 10,
+  //   //   behavior: "auto",
+  //   // });
+
+  //   console.log(postion);
+  // }
 }

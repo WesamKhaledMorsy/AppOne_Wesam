@@ -1,0 +1,53 @@
+
+.container-fluid{
+  color: #2C3E50;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 10rem;
+}
+.main-row{
+  width:75%;
+  padding-top: 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative  ;
+  top: 55%;
+}
+.line{
+  height: 6px;
+  background-color:#2C3E50;
+  width:6rem;
+  transform: translateY(100%);
+  margin-inline: 0.5rem ;
+}
+i{
+  font-size: 1rem;
+  vertical-align: text-top;
+}
+.break-line{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0.6rem;
+  margin-bottom: 0.8rem;
+}
+
+label{
+  color: #1ABC9C;
+}
+input{
+  border: none;
+  border-bottom:1px solid #888c8f;
+}
+.myBtn{
+  background-color: #1ABC9C;
+  color: #fff;
+  padding: 0.6rem;
+  border-radius: 15px;
+  border: none;
+  margin-top: 0.5rem;
+}

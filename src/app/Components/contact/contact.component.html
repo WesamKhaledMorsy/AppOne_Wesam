@@ -1,0 +1,43 @@
+<div class="container-fluid">
+  <div class="row main-row">
+    <div class="col-md-12 text-center">
+      <h1>CONTACT SECTION</h1>
+    </div>
+    <div class="col-md-12 break-line">
+      <div class="line"></div>
+      <i class="fa-solid fa-star"></i>
+      <div class="line"></div>
+    </div>
+
+    <form class="w-75">
+      <div class="col-md-12 py-2">
+        <label for="userName" [class.d-none]="labelName">User Name:</label>
+        <input type="text" name="userName"
+              id="userName" placeholder="userName"
+              class="form-control py-3" (keyup)="appearLabel($event)" >
+      </div>
+      <div class="col-md-12 py-2">
+        <label for="userAge"  [class.d-none]="LabelAge">User Age:</label>
+        <input type="number" name="userAge"
+              id="userAge" placeholder="userAge" min="10" max="99"
+              class="form-control py-3" (keyup)="appearLabel($event)" >
+      </div>
+      <div class="col-md-12 py-2">
+        <label for="userEmail"[class.d-none]="labelEmail">User Email:</label>
+        <input type="email" name="userEmail"
+              id="userEmail" placeholder="userEmail"
+              class="form-control py-3" (keyup)="appearLabel($event)">
+      </div>
+      <div class="col-md-12 py-2">
+        <label for="userPassword" [class.d-none]="labelPassword">User password:</label>
+        <input type="password" name="usePassword"
+              id="userPassword" placeholder="userPassword"
+              class="form-control py-3" (keyup)="appearLabel($event)">
+      </div>
+      <div class="col-md-12">
+        <button class="myBtn">Send Message</button>
+      </div>
+    </form>
+  </div>
+</div>
+

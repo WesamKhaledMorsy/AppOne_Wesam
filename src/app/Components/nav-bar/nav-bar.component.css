@@ -1,0 +1,33 @@
+.navbar{
+  background-color: #2C3E50 !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-block: 2rem;
+  transition: all 700ms;
+}
+.navbar-brand{
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.nav-link{
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 0.6rem;
+}
+.nav-link.myBtn ,.nav-link.active{
+  background-color: #1ABC9C;
+  border-radius: 10px;
+  width: fit-content;
+  /* padding: 0.6rem; */
+  color: #fff;
+}
+
+.fixed{
+  padding-block: 1.1rem !important;
+}
+.notFixed{
+  padding-block: 2rem;
+}
